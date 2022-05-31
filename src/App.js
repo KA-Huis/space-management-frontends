@@ -9,9 +9,10 @@ import AddReparation from './AddReparation';
 function App() {
   return (
     <div className="App">
-    <Header />
+    <AddReparation />
+    {/* <Header />
     <Toolinformation addbtn='Reparatie aanmaken' toolname='Reparaties'/>
-    <Menu />
+    <Menu /> */}
 
     {/*The code here below is a route for AddReparation but it is not working yet*/}
     {/* <Route exact path='/AddReparation' component={AddReparation} /> */}

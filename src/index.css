@@ -76,6 +76,7 @@ h3 {
   background: linear-gradient(180deg, #252837 0%, rgba(37, 40, 55, 0.2) 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  border-style: none;
 }
 
 /*Tool-Information*/
@@ -132,4 +133,52 @@ color: #FFFFFF;
   color: white;
   height: 80px;
   padding: 4px;
+}
+
+/*insert forms*/
+.insertForm{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.insertFormLabel{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -0.001em;
+}
+
+.insertFormInput1{
+  background: #F8F8F9;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.12);
+  border-style: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.insertFormInput2{
+  background: #F8F8F9;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.12);
+  border-style: none;
+  border-radius: 20px;
+  height: 80px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+/*SubmitButtons*/
+.sbmBtnFlexBox{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sbmBtn{
+  width: 150%;
 }
