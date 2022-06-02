@@ -2,6 +2,8 @@ version: "3.8"
 services:
   nodejs:
     container_name: smf-nodejs
+    ports:
+      - "3000:3000"
     build:
       context: ./
       dockerfile: "./docker/nodejs/Dockerfile"
