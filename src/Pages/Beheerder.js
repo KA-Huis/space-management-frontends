@@ -1,12 +1,14 @@
-import Menu from './components/Menu';
-import Header from './components/Header';
+// import Menu from './pages/components/Menu';
+// import Header from './pages/components/Header';
+import AddReparation from "./components/AddReparation";
 
 function Beheerder() {
     return (
       <div className="Beheerder">
-        <Header />
+        {/* <Header />
         <Menu />
-        <h1>hi there this is the Beheerder page</h1>
+        <h1>hi there this is the Beheerder page</h1> */}
+        <AddReparation />
     </div> 
     );
   }

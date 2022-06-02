@@ -155,7 +155,7 @@ h3 {
 .insertFormInput1{
   background: #F8F8F9;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.12);
-  border-style: none;
+  border: none;
   border-radius: 20px;
   height: 40px;
   width: 70%;
@@ -167,7 +167,7 @@ h3 {
 .insertFormInput2{
   background: #F8F8F9;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.12);
-  border-style: none;
+  border: none;
   border-radius: 20px;
   height: 80px;
   width: 70%;
@@ -179,9 +179,19 @@ h3 {
 /*SubmitButtons*/
 .sbmBtnFlexBox{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
 }
 
 .sbmBtn{
-  width: 150%;
+  padding: 2px 20px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+}
+
+.sbmBtnConfirm{
+  background-color: red;
+  color: white;
 }
