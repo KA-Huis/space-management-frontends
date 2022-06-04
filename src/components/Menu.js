@@ -9,11 +9,11 @@ import menuItemBeheerder from './images/beheerder.png';
 const Menu = () => {
     return (
         <div class="mobile-menu">
-            <button class="menu-btn"><img src={menuItemProfiel}></img></button>
-            <button class="menu-btn"><img src={menuItemAgenda}></img></button>
-            <button class="menu-btn home"><img src={menuItemHome}></img></button>
-            <button class="menu-btn"><img src={menuItemReparaties}></img></button>
-            <button class="menu-btn"><img src={menuItemBeheerder}></img></button>
+            <button class="menu-btn"><img src={menuItemProfiel} /></button>
+            <button class="menu-btn"><img src={menuItemAgenda} /></button>
+            <button class="menu-btn home"><img src={menuItemHome} /></button>
+            <button class="menu-btn"><img src={menuItemReparaties} /></button>
+            <button class="menu-btn"><img src={menuItemBeheerder} /></button>
         </div>
     )
 }
