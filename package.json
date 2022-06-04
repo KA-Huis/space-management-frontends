@@ -1,8 +1,14 @@
 {
-  "name": "space-management-frontends",
+  "name": "@KA-Huis/space-management-frontends",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KA-Huis/space-management-frontends.git"
+  },
   "version": "0.1.0",
   "author": "KA-Huis",
-  "private": true,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
