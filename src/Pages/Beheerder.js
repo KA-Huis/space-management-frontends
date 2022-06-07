@@ -1,6 +1,5 @@
 import Menu from './components/Menu';
 import Header from './components/Header';
-
 function Beheerder() {
     return (
       <div className="Beheerder">
