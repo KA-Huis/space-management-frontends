@@ -11,9 +11,67 @@ const ScrollMenu = ({scrollTitle, }) => {
         <h1 className="scrollHeader">{scrollTitle}</h1>
         <div className='reparaties'>
             <img className="smallStatus" src={waiting} />
-            <img className="smallStatus" src={inproces} />
-            <img className="smallStatus" src={check} /> 
-            <img className="smallStatus" src={letter} />
+            <h5>Wachtend</h5>
+            <div className='repatatiesInfo'> 
+                <h4>Lamp defefect</h4>
+                <h4>keuken</h4>
+            </div>
+        </div>
+        <div className='reparaties'>
+          <img className="smallStatus" src={check} /> 
+            <h5>Wachtend</h5>
+            <div className='repatatiesInfo'> 
+                <h4>Lamp defefect</h4>
+                <h4>keuken</h4>
+            </div>
+        </div>
+        <div className='reparaties'>
+        <img className="smallStatus" src={letter} />
+            <h5>Wachtend</h5>
+            <div className='repatatiesInfo'> 
+                <h4>Lamp defefect</h4>
+                <h4>keuken</h4>
+            </div>
+        </div>
+        <div className='reparaties'>
+        <img className="smallStatus" src={inproces} />
+            <h5>Wachtend</h5>
+            <div className='repatatiesInfo'> 
+                <h4>Lamp defefect</h4>
+                <h4>keuken</h4>
+            </div>
+        </div>
+        <div className='reparaties'>
+        <img className="smallStatus" src={inproces} />
+            <h5>Wachtend</h5>
+            <div className='repatatiesInfo'> 
+                <h4>Lamp defefect</h4>
+                <h4>keuken</h4>
+            </div>
+        </div>
+        <div className='reparaties'>
+        <img className="smallStatus" src={inproces} />
+            <h5>Wachtend</h5>
+            <div className='repatatiesInfo'> 
+                <h4>Lamp defefect</h4>
+                <h4>keuken</h4>
+            </div>
+        </div>
+        <div className='reparaties'>
+        <img className="smallStatus" src={inproces} />
+            <h5>Wachtend</h5>
+            <div className='repatatiesInfo'> 
+                <h4>Lamp defefect</h4>
+                <h4>keuken</h4>
+            </div>
+        </div>
+        <div className='reparaties'>
+        <img className="smallStatus" src={inproces} />
+            <h5>Wachtend</h5>
+            <div className='repatatiesInfo'> 
+                <h4>Lamp defefect</h4>
+                <h4>keuken</h4>
+            </div>
         </div>
     </div>
   )
