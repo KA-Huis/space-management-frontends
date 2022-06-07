@@ -3,6 +3,7 @@ import Button from './Button'
 import logoBackground from './images/Background.png';
 import Popup from './Popup';
 import AddReparation from './AddReparation';
+import EditProfile from './EditProfile';
 
 const Toolinformation = ({addbtn, toolname}) => {
   const [buttonPopup, setButtonPopup] = useState(false);
@@ -17,6 +18,7 @@ const Toolinformation = ({addbtn, toolname}) => {
           </div>
           <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <AddReparation />
+          {/* <EditProfile /> */}
           </Popup>
         </div>
   )
