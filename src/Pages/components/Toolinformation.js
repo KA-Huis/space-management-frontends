@@ -11,13 +11,13 @@ const Toolinformation = ({addbtn, toolname}) => {
         <div className='toolInformation'>
           <img src={logoBackground}></img>
           <div className='headerInfo'> 
-          <h1 className='toolInformationText1'>Overzicht</h1>
-          <h1 className='toolInformationText2'>{toolname}</h1>
-          <Button onClick={() => setButtonPopup(true)} className="add-button" title={'reparatie aanmaken'}/>
-          </div>
-          <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-          <AddReparation />
-          </Popup>
+            <h5>Overzicht</h5>
+            <h3>{toolname}</h3>
+              <Button onClick={() => setButtonPopup(true)} className="add-button" title={addbtn}/>
+              </div>
+              <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+              <AddReparation />
+            </Popup>
         </div>
   )
 }
