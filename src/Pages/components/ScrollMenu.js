@@ -10,13 +10,22 @@ const ScrollMenu = ({scrollTitle, }) => {
     <div className='scrollMenu'>
         <h1 className="scrollHeader">{scrollTitle}</h1>
         <div className='reparaties'>
-            <img className="smallStatus" src={waiting} />
+            <div className='backgroundStatus'>
+                <img className="smallStatus" src={waiting} />
+            </div>
             <h5>Wachtend</h5>
             <div className='repatatiesInfo'> 
-                <h4>Lamp defefect</h4>
-                <h4>keuken</h4>
+                <div className='reparatieTitel'>
+                    <h4>Lamp defefect</h4>
+                    <h4>keuken</h4>
+                </div>
+                <div>
+                    <img className="smallStatus" src={waiting} />
+                </div>
             </div>
         </div>
+
+
         <div className='reparaties'>
           <img className="smallStatus" src={check} /> 
             <h5>Wachtend</h5>
