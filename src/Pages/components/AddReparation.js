@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 
 function AddReparation() {
     return (
-      <div className="AddReparation">
+      <div className='backgroundImg'>
       <PopupHeader title='Reparaties' subtitle='Maken'/>
-      <InsertForm classname='insertFormInput1' idname='Apparaat' name='Apparaat' labelname='Soort Apparaat'/>
-      <InsertForm classname='insertFormInput1' idname='Ruimte' name='Ruimte'  labelname='Kies een Ruimte'/>
-      <InsertForm classname='insertFormInput1' idname='Onderwerp' name='Onderwerp'  labelname='Onderwerp'/>
-      <InsertForm classname='insertFormInput1' idname='Gebruiker' name='Gebruiker'  labelname='Gemeld door'/>
-      <InsertForm classname='insertFormInput2'idname='Omschrijving' name='Omschrijving'  labelname='Omschrijving'/>
+      <InsertForm classname='insertFormInput insertFormInput1' idname='Apparaat' name='Apparaat' labelname='Soort Apparaat'/>
+      <InsertForm classname='insertFormInput insertFormInput1' idname='Ruimte' name='Ruimte'  labelname='Kies een Ruimte'/>
+      <InsertForm classname='insertFormInput insertFormInput1' idname='Onderwerp' name='Onderwerp'  labelname='Onderwerp'/>
+      <InsertForm classname='insertFormInput insertFormInput1' idname='Gebruiker' name='Gebruiker'  labelname='Gemeld door'/>
+      <InsertForm classname='insertFormInput insertFormInput2'idname='Omschrijving' name='Omschrijving'  labelname='Omschrijving'/>
       <Link class="cameraButton" to="/camera" ><img src={cameraButton} /></Link>
       <div className='sbmBtnFlexBox'>
         <SubmitButton classname='sbmBtn sbmBtnDenied' submitname='Bevestig' />
