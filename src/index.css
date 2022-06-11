@@ -283,6 +283,7 @@ h5 {
 .Beheerder {
   height: 98vh;
   background-position: bottom right;
+}
 
 .backgroundImg{
   background-image: url(./Pages/components/images/Background.png);
