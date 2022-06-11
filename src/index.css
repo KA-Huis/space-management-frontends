@@ -99,6 +99,11 @@ h5 {
   border-style: none;
 }
 
+.change-btn{
+  background-color: transparent;
+  border: none;
+}
+
 /*Tool-Information*/
 .toolInformation{
   background: linear-gradient(348.74deg, rgba(255, 0, 59, 0.4) 17.95%, #FF003B 63.67%);
@@ -283,6 +288,7 @@ h5 {
 .Beheerder {
   height: 98vh;
   background-position: bottom right;
+} 
 
 .backgroundImg{
   background-image: url(./Pages/components/images/Background.png);
