@@ -9,7 +9,7 @@ function Reparaties() {
     return (
       <div className="Reparaties">
         <Header />
-        <Toolinformation toolname={'Reparaties'}/>
+        <Toolinformation toolname={'Reparaties'} addbtn={'Reparatie aanmaken'}/>
         <ScrollMenu scrollTitle={'Reparaties'}/>
         <Menu />
     </div> 

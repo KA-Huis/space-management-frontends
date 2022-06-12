@@ -4,7 +4,7 @@ import logoBackground from './images/Background.png';
 import Popup from './Popup';
 import AddReparation from './AddReparation';
 
-const Toolinformation = ({toolname}) => {
+const Toolinformation = ({toolname, addbtn}) => {
   const [buttonPopup, setButtonPopup] = useState(false);
 
   return (

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Button from './Button'
 import logoBackground from './images/Background.png';
 import Popup from './Popup';
-import AddNews from './AddNews'
+import AddNews from './AddNews';
 
 const ToolinformationNews = ({toolname}) => {
   const [buttonPopup, setButtonPopup] = useState(false);
@@ -11,8 +11,8 @@ const ToolinformationNews = ({toolname}) => {
         <div className='toolInformation'>
           <img src={logoBackground}></img>
           <div className='headerInfo'> 
-          <h1 className='toolInformationText1'>Overzicht</h1>
-          <h1 className='toolInformationText2'>{toolname}</h1>
+          <h5>Overzicht</h5>
+          <h3>{toolname}</h3>
           <Button onClick={() => setButtonPopup(true)} className="add-button" title={'Artikel aanmaken'}/>
           </div>
           <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
