@@ -10,6 +10,7 @@ import Home from './Pages/Home';
 import Reparaties from './Pages/Reparaties';
 import Beheerder from './Pages/Beheerder';
 import Camera from './Pages/Camera';
+import News from './Pages/News';
 
 import Login from './Pages/Login';
 import Newspage from './Pages/Newspage';
@@ -25,6 +26,7 @@ export default function App() {
           <Route exact path='/agenda' element={<Agenda/>}/>
           <Route exact path='/login' element={<Login/>}/>
           <Route exact path='/camera' element={<Camera/>}/>
+          <Route exact path='/news' element={<News/>}/>
           <Route exact path='/newspage' element={<Newspage/>}/>
         </Routes>
     </BrowserRouter>

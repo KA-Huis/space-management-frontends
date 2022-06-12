@@ -49,7 +49,20 @@ h5 {
   text-transform: uppercase;
   font-size: 12px;
 }
+h6 {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
 
+hr {
+  border-top: 2px solid #FF003B;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
 /*Navigation Menu*/
 
 .mobile-menu {
@@ -110,27 +123,13 @@ h5 {
   width: 100%;
   display: flex;
 
-  padding-bottom: 32px;
+  padding-bottom: 60px;
 }
 .headerInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.toolInformationText1{
-  font-size: 12px;
-  font-weight: 100;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-
-.toolInformationText2{
-  font-weight: 600;
-  font-size: 20px;
-  text-transform: uppercase;
 }
 
 .header {
@@ -162,9 +161,9 @@ h5 {
 /*Scroll menu styles*/
 .scrollMenu {
   background-color: #252837;
-  border-radius: 80px;
+  border-radius: 60px;
 
-  margin-top: -20px;
+  margin-top: -44px;
 }
 .scrollHeader {
   font-size: 32px;
@@ -172,12 +171,13 @@ h5 {
 
   color: #FF003B;
   margin: 0 8%;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .backgroundStatus {
   background: linear-gradient(348.74deg, rgba(255, 0, 59, 0.4) 17.95%, #FF003B 63.67%);
-  border-radius: 20px;
+  border-radius: 30px;
+  padding-top: 2px;
 }
 .smallStatus {
   padding-top: 4px;
