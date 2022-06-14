@@ -13,7 +13,6 @@ import Camera from './Pages/Camera';
 import News from './Pages/News';
 
 import Login from './Pages/Login';
-import Newspage from './Pages/Newspage';
 
 export default function App() {
   return (
@@ -27,7 +26,6 @@ export default function App() {
           <Route exact path='/login' element={<Login/>}/>
           <Route exact path='/camera' element={<Camera/>}/>
           <Route exact path='/news' element={<News/>}/>
-          <Route exact path='/newspage' element={<Newspage/>}/>
         </Routes>
     </BrowserRouter>
   );
