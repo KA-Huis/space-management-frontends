@@ -166,26 +166,6 @@ const ScrollMenu = ({scrollTitle, }) => {
                 </div>
             </div>
         </div>
-
-        <div className='reparaties'>
-            <div className='backgroundStatus'>
-                <img className="smallStatus" src={waiting} />
-            </div>
-            <h5>Wachtend</h5>
-            <div className='repatatiesInfo'> 
-                <div className='reparatieTitel'>
-                    <h4>bel kapot</h4>
-                    <h4>voordeur</h4>
-                </div>
-                <div>
-                    <button onClick={() => setButtonPopup(true)} className='change-btn'><img src={editButton} /></button>
-                    <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-                    <EditReparation />
-                    </Popup>
-                </div>
-            </div>
-        </div>
-        
     </div>
   )
 }
